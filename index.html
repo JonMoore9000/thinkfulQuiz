@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thinkful Quiz Challenge</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="start-page" style="display: none;">
+		<header class="title"><h2><span class="thinkful">Thinkful</span> Quiz App</h2></header>
+			<h3>Let's Begin</h3>
+				<p>This quiz will test your knowledge about <span class="mlb">Major League Baseball</span>.</p>
+				<p>Best of luck to you!</p>
+				<form class="game-start">
+					<button type="submit" class="btn1">Start</button>
+				</form>
+		</div>
+
+
+
+		<div class="questions-page" style="display: none;">
+				<h3><span class="question-count"></span> : <span class="question-text"></span></h3>
+				<form name="current-question">
+				<ol type="A" class="choices"></ol>	
+				<button type="submit">Submit</button>	
+				<button class="restart-game">Start Over</button>		
+			</form>
+		</div>
+
+
+
+		<div class="answer-feedback-page" style="display: none;">
+			<div class="feedback-container">
+				<div class="feedback-header"></div>
+				<p class="feedback-text"></p>
+				<button class="see-next"></button>
+			</div>	
+		</div>
+
+
+			<div class="final-feedback-page" style="display: none;">
+				<h1>Results</h1>
+				<p class="results-text"></p>
+				<button class="restart-game">Start Over</button>
+			</div>
+
+	</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

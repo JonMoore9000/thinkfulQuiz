@@ -1,0 +1,73 @@
+/* CSS */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: black;
+} 
+
+p {
+	max-width: 460px;
+}
+
+
+.container {
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: black;
+	color: white;
+}
+
+.thinkful {
+	color: #6799ff;
+}
+
+.mlb {
+	color: #6799ff;
+}
+
+.user-was-correct::before {
+	content: "Whoop! You are ";
+}
+
+.user-was-correct::after {
+	content: "!";
+}
+
+.user-was-incorrect::before {
+	content: "You are ";
+}
+
+.user-was-correct {
+	font-size: 20px;
+	color: green;
+}
+
+.user-was-incorrect {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
+
+button {
+	width: auto;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid white;
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: #6799ff;
+}
+
+
+
+
+
+
